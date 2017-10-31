@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnData = new System.Windows.Forms.Panel();
             this.gbRoom = new System.Windows.Forms.GroupBox();
             this.lbRoomID = new MaterialSkin.Controls.MaterialLabel();
@@ -74,7 +74,6 @@
             this.lbName = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             this.txtName = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.btnReset = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnCreate = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnHis = new Bunifu.Framework.UI.BunifuFlatButton();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
@@ -94,7 +93,6 @@
             this.pnData.Controls.Add(this.gbRoom);
             this.pnData.Controls.Add(this.gbDetail);
             this.pnData.Controls.Add(this.gbCustomer);
-            this.pnData.Controls.Add(this.btnReset);
             this.pnData.Controls.Add(this.btnCreate);
             this.pnData.Controls.Add(this.btnHis);
             this.pnData.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -188,21 +186,21 @@
             // dgvRoom
             // 
             this.dgvRoom.AllowUserToAddRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dgvRoom.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dgvRoom.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvRoom.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.dgvRoom.BackgroundColor = System.Drawing.Color.White;
             this.dgvRoom.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvRoom.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(193)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvRoom.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(193)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvRoom.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvRoom.ColumnHeadersHeight = 30;
             this.dgvRoom.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colRoomID,
@@ -846,41 +844,6 @@
             this.txtName.TabIndex = 89;
             this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // btnReset
-            // 
-            this.btnReset.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnReset.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(193)))));
-            this.btnReset.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnReset.BorderRadius = 0;
-            this.btnReset.ButtonText = "Reset";
-            this.btnReset.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnReset.DisabledColor = System.Drawing.Color.Gray;
-            this.btnReset.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnReset.Iconimage = null;
-            this.btnReset.Iconimage_right = null;
-            this.btnReset.Iconimage_right_Selected = null;
-            this.btnReset.Iconimage_Selected = null;
-            this.btnReset.IconMarginLeft = 0;
-            this.btnReset.IconMarginRight = 0;
-            this.btnReset.IconRightVisible = true;
-            this.btnReset.IconRightZoom = 0D;
-            this.btnReset.IconVisible = true;
-            this.btnReset.IconZoom = 90D;
-            this.btnReset.IsTab = false;
-            this.btnReset.Location = new System.Drawing.Point(774, 633);
-            this.btnReset.Name = "btnReset";
-            this.btnReset.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(193)))));
-            this.btnReset.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(218)))), ((int)(((byte)(108)))));
-            this.btnReset.OnHoverTextColor = System.Drawing.Color.Black;
-            this.btnReset.selected = false;
-            this.btnReset.Size = new System.Drawing.Size(120, 40);
-            this.btnReset.TabIndex = 71;
-            this.btnReset.Text = "Reset";
-            this.btnReset.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnReset.Textcolor = System.Drawing.Color.Black;
-            this.btnReset.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
             // btnCreate
             // 
             this.btnCreate.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
@@ -904,7 +867,7 @@
             this.btnCreate.IconVisible = true;
             this.btnCreate.IconZoom = 90D;
             this.btnCreate.IsTab = false;
-            this.btnCreate.Location = new System.Drawing.Point(648, 633);
+            this.btnCreate.Location = new System.Drawing.Point(760, 633);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(193)))));
             this.btnCreate.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(218)))), ((int)(((byte)(108)))));
@@ -992,7 +955,6 @@
 
         #endregion
         private System.Windows.Forms.Panel pnData;
-        private Bunifu.Framework.UI.BunifuFlatButton btnReset;
         private System.Windows.Forms.GroupBox gbDetail;
         private System.Windows.Forms.GroupBox gbCustomer;
         private System.Windows.Forms.RadioButton rdbFemale;

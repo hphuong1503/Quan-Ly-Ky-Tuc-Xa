@@ -69,7 +69,7 @@ namespace QuanLyKytucXa
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            if (txtPass.Text != "" && txtPass.Text != "")
+            if (txtPass.Text.Length > 2 && txtPass.Text.Length >2 )
             {
                 string user = txtUser.Text;
                 string pass = txtPass.Text;
@@ -98,7 +98,7 @@ namespace QuanLyKytucXa
 
             string user = txtUser.Text;
             string pass = txtPass.Text;
-            if (ctrAcc.updateAcc(user, pass))
+            if (txtPass.Text.Length > 2 && txtPass.Text.Length > 2 && ctrAcc.updateAcc(user, pass))
             {
                 ctrAcc.showAcc(dgvACC);
                 MessageBox.Show("Success");

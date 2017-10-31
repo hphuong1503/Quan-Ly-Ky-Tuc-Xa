@@ -180,5 +180,6 @@ namespace QuanLyKytucXa
         {
            txtResRoom.Text= txtRoomID.Text = (string)dgvRoom.CurrentRow.Cells[0].Value;
         }
+        
     }
 }

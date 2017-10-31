@@ -23,16 +23,22 @@ namespace QuanLyKytucXa
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             string serID= txtSerID.Text;
-            int price = Convert.ToInt32(txtFee.Text);
-            if (ctrSer.updateServiceFee(serID, price))
+            int price = 0;
+            try
             {
-                ctrSer.showServiceFee(dgvSerFee);
-                MessageBox.Show("Success");
+                 price = Convert.ToInt32(txtFee.Text);
+                if (ctrSer.updateServiceFee(serID, price))
+                {
+                    ctrSer.showServiceFee(dgvSerFee);
+                    MessageBox.Show("Success");
+                }
+                else
+                {
+                    MessageBox.Show("Fail");
+                }
             }
-            else
-            {
-                MessageBox.Show("Fail");
-            }
+            catch (Exception) { MessageBox.Show("Fail"); }
+           
         }
 
         private void dgvSerFee_CellClick(object sender, DataGridViewCellEventArgs e)

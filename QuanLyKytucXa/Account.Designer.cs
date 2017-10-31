@@ -322,7 +322,7 @@
             this.lbPass.Location = new System.Drawing.Point(21, 98);
             this.lbPass.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbPass.Name = "lbPass";
-            this.lbPass.Size = new System.Drawing.Size(68, 18);
+            this.lbPass.Size = new System.Drawing.Size(80, 18);
             this.lbPass.TabIndex = 61;
             this.lbPass.Text = "Password";
             // 
