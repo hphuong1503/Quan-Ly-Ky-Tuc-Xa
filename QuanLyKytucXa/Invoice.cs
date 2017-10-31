@@ -19,18 +19,7 @@ namespace QuanLyKytucXa
         private CtrInvoice ctrInv = new CtrInvoice();
         private CtrInvoiceDetail ctrDetail = new CtrInvoiceDetail();
 
-        private void ckbElec_CheckedChanged(object sender, EventArgs e)
-        {
-            //if (ckbElec.Checked && !"".Equals(txtCusIDInvoice.Text))
-            //{
-            //    pnElectric.Visible = true;
-            //}
-            //else
-            //{
-            //    txtElecNum.Controls.Clear();
-            //    pnElectric.Visible = false;
-            //}
-        }
+       
 
         private void ckbWater_CheckedChanged(object sender, EventArgs e)
         {
@@ -300,7 +289,6 @@ namespace QuanLyKytucXa
             {
                 e.Handled = true;
             }
-
         }
 
         private void btnHistory_Click(object sender, EventArgs e)
@@ -314,12 +302,6 @@ namespace QuanLyKytucXa
             txtCusIDInvoice.Text = txtCustomerId.Text;
         }
 
-        private void btnPrint_Click(object sender, EventArgs e)
-        {
-            Report a = new Report();
-            a.setMahd(txtInvoiceID.Text);
-            a.Show();
-        }
 
         private void btnClear_Click(object sender, EventArgs e)
         {

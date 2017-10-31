@@ -28,12 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnData = new System.Windows.Forms.Panel();
             this.btnClear = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnHistory = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btnPrint = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnCreate = new Bunifu.Framework.UI.BunifuFlatButton();
             this.gbCustomer = new System.Windows.Forms.GroupBox();
             this.lbRoomID = new MaterialSkin.Controls.MaterialLabel();
@@ -70,7 +69,6 @@
             this.ckbVehicle = new System.Windows.Forms.CheckBox();
             this.ckbWater = new System.Windows.Forms.CheckBox();
             this.ckbRoom = new System.Windows.Forms.CheckBox();
-            this.ckbElec = new System.Windows.Forms.CheckBox();
             this.lbSum = new MaterialSkin.Controls.MaterialLabel();
             this.txtSum = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.lbInvoiceID = new MaterialSkin.Controls.MaterialLabel();
@@ -80,7 +78,6 @@
             this.lnDescription = new MaterialSkin.Controls.MaterialLabel();
             this.lbWater = new MaterialSkin.Controls.MaterialLabel();
             this.lbRoom = new MaterialSkin.Controls.MaterialLabel();
-            this.lbTienDien = new MaterialSkin.Controls.MaterialLabel();
             this.lbYear = new MaterialSkin.Controls.MaterialLabel();
             this.lbMonth = new MaterialSkin.Controls.MaterialLabel();
             this.lbVehicleInvoice = new MaterialSkin.Controls.MaterialLabel();
@@ -96,7 +93,6 @@
             // 
             this.pnData.Controls.Add(this.btnClear);
             this.pnData.Controls.Add(this.btnHistory);
-            this.pnData.Controls.Add(this.btnPrint);
             this.pnData.Controls.Add(this.btnCreate);
             this.pnData.Controls.Add(this.gbCustomer);
             this.pnData.Controls.Add(this.gbInvoice);
@@ -179,42 +175,6 @@
             this.btnHistory.Textcolor = System.Drawing.Color.Black;
             this.btnHistory.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHistory.Click += new System.EventHandler(this.btnHistory_Click);
-            // 
-            // btnPrint
-            // 
-            this.btnPrint.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(193)))));
-            this.btnPrint.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnPrint.BorderRadius = 0;
-            this.btnPrint.ButtonText = "Print";
-            this.btnPrint.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPrint.DisabledColor = System.Drawing.Color.Gray;
-            this.btnPrint.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrint.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnPrint.Iconimage = null;
-            this.btnPrint.Iconimage_right = null;
-            this.btnPrint.Iconimage_right_Selected = null;
-            this.btnPrint.Iconimage_Selected = null;
-            this.btnPrint.IconMarginLeft = 0;
-            this.btnPrint.IconMarginRight = 0;
-            this.btnPrint.IconRightVisible = true;
-            this.btnPrint.IconRightZoom = 0D;
-            this.btnPrint.IconVisible = true;
-            this.btnPrint.IconZoom = 90D;
-            this.btnPrint.IsTab = false;
-            this.btnPrint.Location = new System.Drawing.Point(415, 624);
-            this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(193)))));
-            this.btnPrint.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(218)))), ((int)(((byte)(108)))));
-            this.btnPrint.OnHoverTextColor = System.Drawing.Color.Black;
-            this.btnPrint.selected = false;
-            this.btnPrint.Size = new System.Drawing.Size(148, 44);
-            this.btnPrint.TabIndex = 70;
-            this.btnPrint.Text = "Print";
-            this.btnPrint.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnPrint.Textcolor = System.Drawing.Color.Black;
-            this.btnPrint.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // btnCreate
             // 
@@ -575,7 +535,6 @@
             this.gbInvoice.Controls.Add(this.ckbVehicle);
             this.gbInvoice.Controls.Add(this.ckbWater);
             this.gbInvoice.Controls.Add(this.ckbRoom);
-            this.gbInvoice.Controls.Add(this.ckbElec);
             this.gbInvoice.Controls.Add(this.lbSum);
             this.gbInvoice.Controls.Add(this.txtSum);
             this.gbInvoice.Controls.Add(this.lbInvoiceID);
@@ -585,7 +544,6 @@
             this.gbInvoice.Controls.Add(this.lnDescription);
             this.gbInvoice.Controls.Add(this.lbWater);
             this.gbInvoice.Controls.Add(this.lbRoom);
-            this.gbInvoice.Controls.Add(this.lbTienDien);
             this.gbInvoice.Controls.Add(this.lbYear);
             this.gbInvoice.Controls.Add(this.lbMonth);
             this.gbInvoice.Controls.Add(this.lbVehicleInvoice);
@@ -619,19 +577,19 @@
             // dgvSerFee
             // 
             this.dgvSerFee.AllowUserToAddRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dgvSerFee.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dgvSerFee.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvSerFee.BackgroundColor = System.Drawing.Color.White;
             this.dgvSerFee.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvSerFee.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(193)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvSerFee.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(193)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvSerFee.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvSerFee.ColumnHeadersHeight = 30;
             this.dgvSerFee.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -710,7 +668,7 @@
             this.pnElectric.Controls.Add(this.txtElecNum);
             this.pnElectric.Location = new System.Drawing.Point(285, 215);
             this.pnElectric.Name = "pnElectric";
-            this.pnElectric.Size = new System.Drawing.Size(250, 72);
+            this.pnElectric.Size = new System.Drawing.Size(268, 72);
             this.pnElectric.TabIndex = 97;
             // 
             // btnElecEnter
@@ -735,7 +693,7 @@
             this.btnElecEnter.IconVisible = true;
             this.btnElecEnter.IconZoom = 90D;
             this.btnElecEnter.IsTab = false;
-            this.btnElecEnter.Location = new System.Drawing.Point(176, 9);
+            this.btnElecEnter.Location = new System.Drawing.Point(206, 9);
             this.btnElecEnter.Name = "btnElecEnter";
             this.btnElecEnter.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(193)))));
             this.btnElecEnter.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(218)))), ((int)(((byte)(108)))));
@@ -757,9 +715,9 @@
             this.lbInputElec.Location = new System.Drawing.Point(3, 26);
             this.lbInputElec.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbInputElec.Name = "lbInputElec";
-            this.lbInputElec.Size = new System.Drawing.Size(68, 18);
+            this.lbInputElec.Size = new System.Drawing.Size(132, 18);
             this.lbInputElec.TabIndex = 84;
-            this.lbInputElec.Text = "Room:";
+            this.lbInputElec.Text = "Electric Number:";
             // 
             // txtElecNum
             // 
@@ -773,10 +731,10 @@
             this.txtElecNum.LineIdleColor = System.Drawing.Color.Gray;
             this.txtElecNum.LineMouseHoverColor = System.Drawing.Color.Blue;
             this.txtElecNum.LineThickness = 4;
-            this.txtElecNum.Location = new System.Drawing.Point(63, 9);
+            this.txtElecNum.Location = new System.Drawing.Point(135, 9);
             this.txtElecNum.Margin = new System.Windows.Forms.Padding(4);
             this.txtElecNum.Name = "txtElecNum";
-            this.txtElecNum.Size = new System.Drawing.Size(82, 35);
+            this.txtElecNum.Size = new System.Drawing.Size(62, 35);
             this.txtElecNum.TabIndex = 88;
             this.txtElecNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtElecNum.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtElecNum_KeyPress);
@@ -810,17 +768,6 @@
             this.ckbRoom.TabIndex = 95;
             this.ckbRoom.UseVisualStyleBackColor = true;
             this.ckbRoom.CheckedChanged += new System.EventHandler(this.ckbRoom_CheckedChanged);
-            // 
-            // ckbElec
-            // 
-            this.ckbElec.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.ckbElec.AutoSize = true;
-            this.ckbElec.Location = new System.Drawing.Point(499, 173);
-            this.ckbElec.Name = "ckbElec";
-            this.ckbElec.Size = new System.Drawing.Size(15, 14);
-            this.ckbElec.TabIndex = 95;
-            this.ckbElec.UseVisualStyleBackColor = true;
-            this.ckbElec.CheckedChanged += new System.EventHandler(this.ckbElec_CheckedChanged);
             // 
             // lbSum
             // 
@@ -966,18 +913,6 @@
             this.lbRoom.TabIndex = 84;
             this.lbRoom.Text = "Room:";
             // 
-            // lbTienDien
-            // 
-            this.lbTienDien.Depth = 0;
-            this.lbTienDien.Font = new System.Drawing.Font("Roboto", 11F);
-            this.lbTienDien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lbTienDien.Location = new System.Drawing.Point(419, 169);
-            this.lbTienDien.MouseState = MaterialSkin.MouseState.HOVER;
-            this.lbTienDien.Name = "lbTienDien";
-            this.lbTienDien.Size = new System.Drawing.Size(68, 18);
-            this.lbTienDien.TabIndex = 84;
-            this.lbTienDien.Text = "Electric:";
-            // 
             // lbYear
             // 
             this.lbYear.Depth = 0;
@@ -1042,7 +977,6 @@
 
         private System.Windows.Forms.Panel pnData;
         private System.Windows.Forms.GroupBox gbCustomer;
-        private Bunifu.Framework.UI.BunifuFlatButton btnPrint;
         private System.Windows.Forms.ComboBox cbVehicle;
         private System.Windows.Forms.GroupBox groupBox1;
         private MaterialSkin.Controls.MaterialLabel lbCustomer;
@@ -1068,10 +1002,8 @@
         private System.Windows.Forms.CheckBox ckbVehicle;
         private System.Windows.Forms.CheckBox ckbWater;
         private System.Windows.Forms.CheckBox ckbRoom;
-        private System.Windows.Forms.CheckBox ckbElec;
         private MaterialSkin.Controls.MaterialLabel lbWater;
         private MaterialSkin.Controls.MaterialLabel lbRoom;
-        private MaterialSkin.Controls.MaterialLabel lbTienDien;
         private MaterialSkin.Controls.MaterialLabel lbVehicleInvoice;
         private System.Windows.Forms.Panel pnElectric;
         private Bunifu.Framework.UI.BunifuFlatButton btnElecEnter;

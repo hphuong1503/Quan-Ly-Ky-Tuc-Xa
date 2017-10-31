@@ -35,7 +35,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInvoiceHis));
             this.pnData = new System.Windows.Forms.Panel();
             this.gbSearch = new System.Windows.Forms.GroupBox();
-            this.btnPrint = new Bunifu.Framework.UI.BunifuFlatButton();
             this.txtCustomerId = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.lbCustomer = new MaterialSkin.Controls.MaterialLabel();
             this.btnShowAll = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -78,7 +77,6 @@
             // 
             // gbSearch
             // 
-            this.gbSearch.Controls.Add(this.btnPrint);
             this.gbSearch.Controls.Add(this.txtCustomerId);
             this.gbSearch.Controls.Add(this.lbCustomer);
             this.gbSearch.Controls.Add(this.btnShowAll);
@@ -89,42 +87,6 @@
             this.gbSearch.TabIndex = 84;
             this.gbSearch.TabStop = false;
             this.gbSearch.Text = "Search";
-            // 
-            // btnPrint
-            // 
-            this.btnPrint.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(193)))));
-            this.btnPrint.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnPrint.BorderRadius = 0;
-            this.btnPrint.ButtonText = "Print";
-            this.btnPrint.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPrint.DisabledColor = System.Drawing.Color.Gray;
-            this.btnPrint.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrint.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnPrint.Iconimage = null;
-            this.btnPrint.Iconimage_right = null;
-            this.btnPrint.Iconimage_right_Selected = null;
-            this.btnPrint.Iconimage_Selected = null;
-            this.btnPrint.IconMarginLeft = 0;
-            this.btnPrint.IconMarginRight = 0;
-            this.btnPrint.IconRightVisible = true;
-            this.btnPrint.IconRightZoom = 0D;
-            this.btnPrint.IconVisible = true;
-            this.btnPrint.IconZoom = 90D;
-            this.btnPrint.IsTab = false;
-            this.btnPrint.Location = new System.Drawing.Point(585, 23);
-            this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(193)))));
-            this.btnPrint.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(218)))), ((int)(((byte)(108)))));
-            this.btnPrint.OnHoverTextColor = System.Drawing.Color.Black;
-            this.btnPrint.selected = false;
-            this.btnPrint.Size = new System.Drawing.Size(115, 48);
-            this.btnPrint.TabIndex = 98;
-            this.btnPrint.Text = "Print";
-            this.btnPrint.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnPrint.Textcolor = System.Drawing.Color.Black;
-            this.btnPrint.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // txtCustomerId
             // 
@@ -461,7 +423,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn2;
-        private Bunifu.Framework.UI.BunifuFlatButton btnPrint;
         private System.Windows.Forms.DataGridViewTextBoxColumn colServiceID;
         private System.Windows.Forms.DataGridViewTextBoxColumn CustomerID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Month;

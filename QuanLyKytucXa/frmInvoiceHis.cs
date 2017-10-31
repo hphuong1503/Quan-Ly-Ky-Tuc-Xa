@@ -88,13 +88,7 @@ namespace QuanLyKytucXa
             }
         }
 
-        private void btnPrint_Click(object sender, EventArgs e)
-        {
-            Report a = new Report();
-            //MessageBox.Show((string)dgvInvoice.CurrentRow.Cells[0].Value);
-            a.setMahd((string)dgvInvoice.CurrentRow.Cells[0].Value);
-            a.Show();
-        }
+      
     }
 
 }

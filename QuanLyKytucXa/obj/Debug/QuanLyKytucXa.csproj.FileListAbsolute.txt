@@ -75,7 +75,6 @@ D:\School Study\Software Testing\Project\QuanLyKytucXa\Quan Ly Ky Tuc Xa Team 10
 D:\School Study\Software Testing\Project\QuanLyKytucXa\Quan Ly Ky Tuc Xa Team 10\QuanLyKytucXa\obj\Debug\QuanLyKytucXa.Invoice.resources
 D:\School Study\Software Testing\Project\QuanLyKytucXa\Quan Ly Ky Tuc Xa Team 10\QuanLyKytucXa\obj\Debug\QuanLyKytucXa.Login.resources
 D:\School Study\Software Testing\Project\QuanLyKytucXa\Quan Ly Ky Tuc Xa Team 10\QuanLyKytucXa\obj\Debug\QuanLyKytucXa.Properties.Resources.resources
-D:\School Study\Software Testing\Project\QuanLyKytucXa\Quan Ly Ky Tuc Xa Team 10\QuanLyKytucXa\obj\Debug\QuanLyKytucXa.Report.resources
 D:\School Study\Software Testing\Project\QuanLyKytucXa\Quan Ly Ky Tuc Xa Team 10\QuanLyKytucXa\obj\Debug\QuanLyKytucXa.Reservation.resources
 D:\School Study\Software Testing\Project\QuanLyKytucXa\Quan Ly Ky Tuc Xa Team 10\QuanLyKytucXa\obj\Debug\QuanLyKytucXa.Room.resources
 D:\School Study\Software Testing\Project\QuanLyKytucXa\Quan Ly Ky Tuc Xa Team 10\QuanLyKytucXa\obj\Debug\QuanLyKytucXa.Account.resources
